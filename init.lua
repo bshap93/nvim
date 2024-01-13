@@ -269,6 +269,8 @@ vim.o.undofile = true
 -- Case-insensitive searching UNLESS \C or capital in search
 vim.o.ignorecase = true
 vim.o.smartcase = true
+-- Scrolling
+vim.opt.scrolloff = 5
 
 -- Indentation 
 vim.o.autoindent = true
